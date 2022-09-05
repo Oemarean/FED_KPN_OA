@@ -31,7 +31,7 @@ Responsive
 https://www.kpn.com
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-KPN homepage <BR>
+## KPN homepage
 <img src="/screenshots/kpn_mobile.png" alt="2" width="375px">
 
 
@@ -90,19 +90,6 @@ KPN homepage <BR>
 
 
 
-
-##  Voortgang 3 (week 8)
-
-<details>
- <img src="/screenshots/" alt="7" width="375px">
- 
- 
-</details>
-
-
-
-
-
 ## Voortgang 3 (week 8)
 
 <details>
@@ -118,7 +105,7 @@ KPN homepage <BR>
 
 
 
-## Eindgesprek (week 5)
+## Eindgesprek (week 9)
 
 <details>
 <summary>uitwerken voor eindgesprek</summary>
