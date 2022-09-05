@@ -11,7 +11,7 @@
 Oemar Alkatiri
 
 #### Je startniveau:
-Rode
+Rode (I dont like coding + extremely rusty)
 
 #### Je focus:
 Responsive
