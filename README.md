@@ -31,7 +31,7 @@ Responsive
 https://www.kpn.com
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
+KPN homepage 
 <img src="/screenshots/kpn_mobile.png" alt="2" width="375px">
 
 
