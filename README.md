@@ -1,2 +1,142 @@
-# FED_KPN
- FED KPN
+# Procesverslag
+
+
+
+## Jij
+
+<details open>
+<summary>uitwerken voor kick-off werkgroep</summary>
+
+### Auteur:
+Oemar Alkatiri
+
+#### Je startniveau:
+Rode
+
+#### Je focus:
+Responsive
+ 
+</details>
+
+
+
+
+
+## Je website
+
+<details open>
+<summary>uitwerken voor kick-off werkgroep</summary>
+
+### Je opdracht:
+https://www.kpn.com
+
+#### Screenshot(s) van de eerste pagina (small screen): 
+hier de naam van de pagina  
+<img src="/screenshots/kpn_mobile.png" alt="2" width="375px">
+
+
+
+
+
+## Breakdownschets (week 1)
+
+<details>
+<summary>uitwerken na afloop 2e werkgroep</summary>
+
+### de hele pagina: 
+ <img src="/screenshots/" alt="1" width="375px">
+
+</details>
+
+
+
+
+
+## Voortgang 1 (week 3)
+
+<details>
+<img src="/screenshots/" alt="3" width="375px">
+
+### Stand van zaken
+
+
+
+### Agenda voor meeting
+
+
+
+</details>
+
+
+
+
+
+## Voortgang 2 (week 5)
+
+<details>
+<img src="/screenshots/" alt="3" width="375px">
+
+
+
+### Stand van zaken
+
+
+
+### Agenda voor meeting
+
+
+</details>
+
+
+
+
+
+##  Voortgang 3 (week 8)
+
+<details>
+ <img src="/screenshots/" alt="7" width="375px">
+ 
+ 
+</details>
+
+
+
+
+
+## Voortgang 3 (week 8)
+
+<details>
+<summary>uitwerken voor 3e voortgang</summary>
+<img src="/screenshots/" alt="" width="375px">
+
+### Stand van zaken
+
+
+</details>
+
+
+
+
+
+## Eindgesprek (week 5)
+
+<details>
+<summary>uitwerken voor eindgesprek</summary>
+
+### Stand van zaken
+
+ 
+### Screenshot(s)
+
+</details>
+
+
+
+
+
+## Bronnenlijst
+
+<details open>
+
+
+</details>
