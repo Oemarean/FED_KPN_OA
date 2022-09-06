@@ -2,7 +2,7 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
 }
 
 button, summary {
@@ -18,8 +18,11 @@ button, summary {
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text:#333333;
+	--color-background-grey:#F3F3F3;
+  --color-brand:#009900;
+  --color-focus:#009900;
+  --color-hovor:#009900;
 }
 
 
@@ -36,4 +39,3 @@ body {
   color:var(--color-text);
   background-color:var(--color-background);
 }
-
