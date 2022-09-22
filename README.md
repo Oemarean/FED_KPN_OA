@@ -44,7 +44,7 @@ https://www.kpn.com
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina:
- <img src="/screenshots/breakdown main.png" alt="1" width="375px">
+ <img src="/screenshots/Breakdown_main.png" alt="1" width="375px">
 
 </details>
 
