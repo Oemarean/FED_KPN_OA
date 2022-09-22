@@ -11,11 +11,11 @@
 Oemar Alkatiri
 
 #### Je startniveau:
-Rode (I dont like coding + extremely rusty)
+Rood (I dont like coding + extremely rusty)
 
 #### Je focus:
 Responsive
- 
+
 </details>
 
 
@@ -30,7 +30,7 @@ Responsive
 ### Je opdracht:
 https://www.kpn.com
 
-#### Screenshot(s) van de eerste pagina (small screen): 
+#### Screenshot(s) van de eerste pagina (small screen):
 #### KPN homepage
 <img src="/screenshots/kpn_mobile.png" alt="2" width="375px">
 
@@ -43,7 +43,7 @@ https://www.kpn.com
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
-### de hele pagina: 
+### de hele pagina:
  <img src="/screenshots/" alt="1" width="375px">
 
 </details>
@@ -112,7 +112,7 @@ https://www.kpn.com
 
 ### Stand van zaken
 
- 
+
 ### Screenshot(s)
 
 </details>
