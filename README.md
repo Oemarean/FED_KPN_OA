@@ -58,32 +58,26 @@ https://www.kpn.com
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
-  Alles doet het naar behoren.
+  Some logos got no description.
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
   Screenreader geen problemen. Alleen paar iconen hebben geen beschrijving of hebben een ?
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
   Iconen een naam geven lost deze op.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-  Met de muis en toetsenbord kan je door de gehele website navigeren. qua keuzes 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Everything is properly fixed in the website no particular problem with mouse and keyboard.
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  On desktop this can be quite an issue since some buttons are small like most CtA. 
+  On mobile it is more friendly with the button being large.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Contrast and everything was fine. Only with stare it was hard to see the center choices but they made
+  it large enough for the readability. 
 
 </details>
 
