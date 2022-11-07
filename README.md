@@ -66,18 +66,18 @@ https://www.kpn.com
   Iconen een naam geven lost deze op.
 
 
-  #### Muis en Toetsenbord 
+  #### Muis en Toetsenbord
   Everything is properly fixed in the website no particular problem with mouse and keyboard.
 
 
   #### Motoriek (shocks, elastiekjes)
-  On desktop this can be quite an issue since some buttons are small like most CtA. 
+  On desktop this can be quite an issue since some buttons are small like most CtA.
   On mobile it is more friendly with the button being large.
 
 
-  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
+  #### Visueel (brillen, contrast, kleurenblind, dark/light).
   Contrast and everything was fine. Only with stare it was hard to see the center choices but they made
-  it large enough for the readability. 
+  it large enough for the readability.
 
 </details>
 
@@ -88,13 +88,13 @@ https://www.kpn.com
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
-  ### de hele pagina: 
+  ### de hele pagina:
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
+  ### dynamisch deel (bijv menu):
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
+  ### wellicht nog een dynamisch deel (bijv filter):
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
@@ -115,20 +115,14 @@ https://www.kpn.com
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Agenda punten waren het bekijken van breakdown schetsen en verbeteren ervan.
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - opnieuw maken
+  - even beter denken hoe alles is opgebouwd
 
 </details>
 
@@ -136,7 +130,7 @@ https://www.kpn.com
 
 
 
-## Voortgang 2 (week 3)
+## Voortgang 2 (week 5)
 
 <details>
   <summary>uitwerken voor 2e voortgang</summary>
@@ -146,22 +140,15 @@ https://www.kpn.com
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Html en css doorlopen van iedereen.
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Html is goed alleen mist er nog css.
+  - breakdown was beter gefixt
 
 </details>
 
@@ -169,36 +156,12 @@ https://www.kpn.com
 
 
 
-## Toegankelijkheidstest 2/2 (week 4)
+## Toegankelijkheidstest 2/2 (week 9)
 
 <details>
   <summary>uitwerken na test in 8e werkgroep</summary>
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
-  #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
-
-  #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
-
-  #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
-
-  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Not fixed yet.
 
 </details>
 
@@ -248,7 +211,7 @@ https://www.kpn.com
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
 
-  ### Dit ging goed/Heb ik geleerd: 
+  ### Dit ging goed/Heb ik geleerd:
   Korte omschrijving met plaatjes
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
@@ -268,8 +231,6 @@ https://www.kpn.com
 
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
-
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
   1. bron 1
   2. bron 2
