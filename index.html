@@ -3,106 +3,148 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="the greatest oemar">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>KPN</title>
+	<title>KPN - homepage</title>
 
-	<link href="styles/style.css" rel="stylesheet">
+	<link href="styles/index.css" rel="stylesheet">
+	<link href="styles/general.css" rel="stylesheet">
 	<!--KPN icon in tab-->
 	<link rel="icon" type="/images/" href="./images/KPN.svg">
 </head>
 
 <body>
 
-	<h1>Welkom bij KPN</h1>
+	<h1 class="sr-only">Welkom bij KPN</h1>
+
 	<header>
 		<nav aria-label="Navigatie Menu">
 			<ul>
-				<li><a href=""><img src="./images/KPN.svg" alt="logo"></a></li>
-				<li><button><img src="./images/basket.svg" alt="winkelmand"/></button></li>
-				<li><button><img src="./images/profile.svg" alt="profiel"/></button></li>
-  			<li><button><img src="./images/search.svg" alt="zoeken" /></button></li>
-				<li><button aria-hidden="true"><img src="./images/menu.svg" alt="klap menu" />Menu</button></li>
+				<li><a href="#"><img src="./images/KPN.svg" alt="naar home"></a></li>
+				<li><button aria-label="winkelmand"><img src="./images/basket.svg" alt="winkelmand"/></button></li>
+				<li><button aria-label="profiel"><img src="./images/profile.svg" alt="profiel"/></button></li>
+  			<li><button aria-label="zoeken"><img src="./images/search.svg" alt="zoeken" /></button></li>
+				<li><button aria-hidden="true"><img src="./images/menu.svg" alt="" />Menu</button></li>
 			</ul>
 		</nav>
-		<nav aria-label="Menu items">
+
+		<nav>
 			<h2>Ons aanbod</h2>
-		<ul>
-			<li><a href="#">
-				<img src="" alt="Keuze Mobiel">Mobiel</a></li>
+			<ul>
+				<li><a href="#">
+					<img src="./images/smartphone.svg" alt="" aria-hidden="true">Mobiel</a></li>
 
-			<li><a href="#">
-				<img src="" alt="Keuze Internet">Internet</a></li>
+				<li><a href="#">
+					<img src="./images/wifi.svg" alt="" aria-hidden="true">Internet</a></li>
 
-			<li><a href="#">
-				<img src="" alt="Keuze TV & Streaming">TV & Streaming</a></li>
+				<li><a href="#">
+					<img src="./images/console.svg" alt="" aria-hidden="true">TV & Streaming</a></li>
 
-			<li><a href="#">
-				<img src="" alt="Keuze Tablet & Accessoires">Tablet & Accessoires</a></li>
+				<li><a href="#">
+					<img src="./images/monitor.svg" alt="" aria-hidden="true">Tablet & Accessoires</a></li>
 
-		</ul>
-	</nav>
+			</ul>
+		</nav>
+
 	</header>
 
 	<main>
-<section>
-	<h2>KPN Glasvezel Internet & TV eerste <strong>6 maanden 30,- per maand</strong></h2>
-	<a href="deal.html">Bekijk Deal</a>
-	<a href="deal.html">Bekijk andere deals</a>
-	<p>Bij een nieuw 1-jarig Internet & TV abonnement</p>
-</section>
-<section>
-	<h2> <strong>Internet & TV</strong> nu voor maar 12 maanden <strong>35,-</strong>/mnd </h2>
+		<!-- je hebt toestemming voor deze div -->
 
-</section>
+			<section>
+				<h2>KPN Glasvezel Internet & TV eerste <strong>6 maanden 30,- per maand</strong></h2>
+	<!-- indien nodig voor styling - div toegestaan -->
+				<a href="deal.html">Bekijk Deal</a>
+				<a href="deal.html">Bekijk andere deals</a>
+				<p>Bij een nieuw 1-jarig Internet & TV abonnement</p>
+			</section>
 
-<section>
-	<ul>
+			<section>
+				<h2> <strong>Internet & TV</strong> nu voor maar 12 maanden <strong>35,-</strong>/mnd </h2>
+
+			</section>
+
+		<section>
+			<!-- mist h2 - mag je verstoppen -->
+			<ul>
 				<li><a href="">Internet & TV</a></li>
 				<li><a href="">Mobiele producten</a></li>
 				<li><a href="">Mijn KPN</a></li>
 				<li><a href="">Service</a></li>
 				<li><a href="">Wifi Manager</a></li>
 				<li><a href="">Zakelijk</a></li>
-</section>
+			</ul>
+		</section>
 
-<section>
-		<h2>Populaire smartphones</h2>
-		<h3>met het abonnement dat bij je past</h3>
+		<section>
+				<h2>Populaire smartphones</h2>
+				<h3>met het abonnement dat bij je past</h3>
 
-		<ul>
-			<li>
-				<p>Krijg tot €400,- terug bij inruil van iPhone 12</p>
-				<a>Bekijk Iphone 14</a>
-				<img src="./images/iphone14.png" alt="afbeelding iphone14"/>
-			</li>
-			<li>
-				<p>Super scherp geprijsd</p>
-				<a>Bekijk Samsung S22</a>
-				<img src="./images/samsungs22.png" alt="afbeelding samsungs22"/>
-			</li>
-			<li>
-				<p>Super scherp geprijsd</p>
-				<a>Bekijk Samsung A53</a>
-				<img src="./images/samsunga53.png" alt="afbeelding samsunga53"/>
-			</li>
-			<li>
-				<p>Geen aansluitkosten t.w.v. €25,-</p>
-				<a>Bestel nu</a>
-				<img src="./images/geen_aansluitkosten.png" alt="afbeelding promotie 25 euro"/>
-			</li>
-		</ul>
+				<ul>
+					<li>
+						<p>Krijg tot €400,- terug bij inruil van iPhone 12</p>
+						<a href="#">> Bekijk Iphone 14</a>
+						<img src="./images/iphone14.png" alt="afbeelding iphone14"/>
+					</li>
+					<li>
+						<p>Super scherp geprijsd</p>
+						<a href="#">> Bekijk Samsung S22</a>
+						<img src="./images/samsungs22.png" alt="afbeelding samsungs22"/>
+					</li>
+					<li>
+						<p>Super scherp geprijsd</p>
+						<a href="#">> Bekijk Samsung A53</a>
+						<img src="./images/samsunga53.png" alt="afbeelding samsunga53"/>
+					</li>
+					<li>
+						<p>Geen aansluitkosten t.w.v. €25,-</p>
+						<a href="#">> Bestel nu</a>
+						<img src="./images/geen_aansluitkosten.png" alt="afbeelding promotie 25 euro"/>
+					</li>
+				</ul>
+<!-- indien nodig voor styling - div toegestaan -->
+				<div>
+				<a href="#">Bekijk alle telefoons</a>
+				<a href="#">Abonnement verlengen</a>
+				<div>
 
-		<a>Bekijk alle telefoons</a>
-		<a>Abonnement verlengen</a>
-
-	</section>
+			</section>
 	</main>
 
 	<footer>
-
+		<button aria-label="toggle menu mobiel">Mobiel</button>
+			<ul>
+				<li><a>Alles over Mobiel</a></li>
+				<li><a>Sim Only</a></li>
+				<li><a>Alle telefoons</a></li>
+			</ul>
+		<button aria-label="toggle menu populaire toestellen">Populaire toestellen</button>
+			<ul>
+				<li><a>Nieuwe Iphone</a></li>
+				<li><a>Iphone 14</a></li>
+				<li><a>Iphone 14 plus</a></li>
+			</ul>
+		<button aria-label="toggle menu internet">Internet</button>
+			<ul>
+				<li><a>Internet</a></li>
+				<li><a>Glasvezel internet</a></li>
+				<li><a>Wifi</a></li>
+			</ul>
+		<button aria-label="toggle menu tv & streaming">TV & Streaming</button>
+			<ul>
+				<li><a>TV & Streaming</a></li>
+				<li><a>Zenderoverzicht</a></li>
+				<li><a>Online tv kijken</a></li>
+			</ul>
+		<button aria-label="toggle menu tablets & smartwatches">Tablets & Smartwatches</button>
+			<ul>
+				<li><a>Tablets</a></li>
+				<li><a>Smartwatches</a></li>
+				<li><a>Smartphones apparatuur</a></li>
+			</ul>
 	</footer>
+
 	<script src="js/script.js"></script>
 </body>
 
