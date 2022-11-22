@@ -1,0 +1,52 @@
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#333333;
+	--color-bg-grey:#F3F3F3;
+  --color-bg-greyer:#CECECE;
+  --color-bg-white:#F8FCFC;
+  --color-bg-black:#1C1C1C;
+  --color-brand:#009900;
+  --color-focus:#009900;
+  --color-hover:#009900;
+  --color-blue:#4496F8;
+  --color-white:#F8FCFC;
+}
+
+main{
+  background-color: var(--color-bg-grey);
+}
+
+section:nth-of-type(1) h2{
+color: var(--color-bg-black);
+font-size: 2em;
+padding: 0;
+margin: 0;
+}
+
+section:nth-of-type(1) p{
+font-size: 1.3em;
+font-weight: lighter;
+margin-top: 0.5em;
+}
+
+section:nth-of-type(1) ul{
+  display: flex;
+  overflow: scroll;
+  gap: 1em;
+}
+
+section:nth-of-type(1) img{
+height: 15em;
+width: auto;
+display: flex;
+}
+
+section:nth-of-type(2) p{
+padding: 1em;
+background: linear-gradient(90deg, rgb(209, 248, 79) 0%, rgb(87, 192, 56) 50%, rgb(87, 192, 57) 100%);
+border-radius: 0.5em;
+font-weight: 700;
+}

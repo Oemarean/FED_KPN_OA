@@ -1,4 +1,4 @@
-**************/
+/**************/
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
@@ -20,6 +20,7 @@ button, summary {
 	/* startje */
 	--color-text:#333333;
 	--color-bg-grey:#F3F3F3;
+  --color-bg-greenish:#E8EEE4;
   --color-bg-white:#F8FCFC;
   --color-bg-black:#1C1C1C;
   --color-brand:#009900;
@@ -27,6 +28,46 @@ button, summary {
   --color-hover:#009900;
   --color-blue:#4496F8;
   --color-white:#F8FCFC;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* body */
+h1,h2,h3,h4,h5,a,p {
+  font-family:"Segoe UI", sans-serif;
+}
+
+h2,h3 {
+  color: var(--color-brand);
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  color:var(--color-text);
+  background-color:var(--color-bg-grey);
+}
+
+a{
+  text-decoration:none;
+  color:var(--color-text);
+}
+
+.sr-only {
+  position: fixed;
+  left:-9999em;
+}
+
+section{
+  margin-top: 2em;
 }
 
 /**********/
@@ -97,10 +138,37 @@ display: none;
 
 header nav:nth-of-type(2){
   width: 100%;
+  transform: translateX(-100%);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-greenish);
+}
+
+header nav:nth-of-type(2).open{
+  transform: translateX(0%)
+}
+
+
+header nav:nth-of-type(2) button{
+  border: none;
+  background: white;
+  height: 3em;
+  text-align: right;
+  padding: 1em;
+  order:-5;
+}
+
+header nav:nth-of-type(2)open{
+  transform: translateX(0%);
 }
 
 header nav:nth-of-type(2) h2{
-  margin-left: 0.6em;
+  margin: 0.5em 1em;
 }
 
 header nav:nth-of-type(2) ul{
@@ -109,7 +177,6 @@ header nav:nth-of-type(2) ul{
   display:flex;
   flex-direction: column;
   justify-content:start;
-  align-items:left;
   gap: 0.2em;
   background-color:var(--color-bg-white);
   line-height:1;
@@ -141,11 +208,11 @@ footer{
   border-top: solid 1px var(--color-bg-black);
 }
 
-footer button:first-of-type{
+/* footer button:first-of-type{
   border-top:none;
-}
+} */
 
-footer button{
+/* footer button{
   width: 100%;
   padding: 0.6em;
   background-color: unset;
@@ -155,6 +222,18 @@ footer button{
   border-top: solid 1px var(--color-bg-black);
   border-bottom: solid 1px var(--color-bg-black);
   text-align: left;
+} */
+
+footer section div {
+  display:flex;
+  /* align-items:center; */
+}
+
+footer section div h2 {
+  flex-grow:1;
+  background-color: yellow;
+  margin:0;
+  padding:.5em 0;
 }
 
 footer ul{
@@ -163,4 +242,21 @@ footer ul{
 	max-height:0;
 	overflow:hidden;
 	transition:1s;
+}
+
+footer ul.uitklap {
+	padding:1em;
+	max-height:15em;
+}
+
+
+@media (min-width:40em) {
+  footer button {
+    display:none;
+  }
+
+  footer ul {
+    padding:1em;
+  	max-height:15em;
+  }
 }
