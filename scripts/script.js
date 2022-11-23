@@ -4,12 +4,13 @@ console.log("hi");
 // NAVIGATIE DEEL
 
 // Open
-  var menuOpenButton = document.querySelector("header button:nth-of-type(2)");
+var menuOpenButton = document.querySelector("header nav ul li:nth-of-type(5) button");
 
   menuOpenButton.addEventListener("click" , menuOpenen);
 
   function menuOpenen(){
-    var deNav = document.querySelector("header nav");
+    var deNav = document.querySelector("header nav:last-of-type");
+    console.log(deNav)
     deNav.classList.add("open")
  }
 
@@ -19,20 +20,20 @@ console.log("hi");
   sluitenButton.addEventListener("click" , menuSluiten);
 
   function menuSluiten(){
-    var deNav = document.querySelector("header nav");
+    var deNav = document.querySelector("header nav:last-of-type");
     deNav.classList.remove("open")
 }
 
 // FOOTER DEEL
 
 // footermenu uitklap
-var footerButton1 = document.querySelector("footer section:nth-of-type(1) button");
-var footerKopje1 = document.querySelector("footer section:nth-of-type(1) h2");
+var footerButton1 = document.querySelector("footer section button");
+var footerKopje1 = document.querySelector("footer section h2");
 
 footerButton1.addEventListener("click", toggleMenu);
 footerKopje1.addEventListener("click", toggleMenu);
 
 function toggleMenu() {
-	var hetMenu = document.querySelector("footer section:nth-of-type(1) ul");
+	var hetMenu = document.querySelector("footer section ul");
 	hetMenu.classList.toggle("uitklap");
 }
