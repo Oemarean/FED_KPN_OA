@@ -21,7 +21,7 @@
   <header>
 		<nav aria-label="Navigatie Menu">
 			<ul>
-				<li><a href="#"><img src="./images/KPN.svg" alt="naar home"></a></li>
+				<li><a href="index.html"><img src="./images/KPN.svg" alt="naar home"></a></li>
 				<li><button aria-label="winkelmand"><img src="./images/basket.svg" alt="winkelmand"/></button></li>
 				<li><button aria-label="profiel"><img src="./images/profile.svg" alt="profiel"/></button></li>
   			<li><button aria-label="zoeken"><img src="./images/search.svg" alt="zoeken" /></button></li>
@@ -56,17 +56,18 @@
           <h2> Apple Iphone 14 </h2>
           <p> 128 GB - Midnight </p>
           <ul>
-            <li><img src="./images/geen_aansluitkosten.png" alt="Iphone 14 voorkant"/></li>
-            <li><img src="./images/geen_aansluitkosten.png" alt="Iphone 14 achterkant"/></li>
-            <li><img src="./images/geen_aansluitkosten.png" alt="Iphone 14 zijkant"/></li>
+            <li><img src="./images/iphone-front.png" alt="Iphone 14 voorkant"/></li>
+            <li><img src="./images/iphone-back.png" alt="Iphone 14 achterkant"/></li>
+            <li><img src="./images/iphone-side.png" alt="Iphone 14 zijkant"/></li>
         </section>
         <section>
           <form>
             <div>
-          <p> Ruil in en krijg tot €400,- terug </p>
+          <p> Ruil in en krijg tot €400,- terug <img src="./images/info-g.svg" alt="" aria-hidden="true"> </p>
             </div>
 
           <fieldset>
+            <div>
             <legend>Opties</legend>
 
             <label for="geheugen">Kleur</label>
@@ -90,8 +91,8 @@
               <input type="radio" name="kleur" value="zwart">
               <label for="zwart">zwart</label>
             </div>
-
-
+          </div>
+          <div>
             <label for="geheugen">Geheugen</label>
             <div>
               <input type="radio" name="geheugen" value="128" checked>
@@ -107,14 +108,14 @@
               <input type="radio" name="geheugen" value="512">
               <label for="512">512gb</label>
             </div>
-
+          </div>
             <p> <strong>Op voorraad:</strong> <br>
               Vóór 21:00 besteld, morgen in huis  </p>
 
           </fieldset>
 
           <fieldset>
-            <legend>Kies je data bundel</legend>
+            <legend>Kies je data bundel <img src="./images/info-b.svg" alt="" aria-hidden="true"></legend>
             <p>Je kunt je databundel aanpassen wanneer je wilt. Omhoog en omlaag. </p>
 
             <div>
@@ -161,8 +162,10 @@
 
           <!--Bron: https://stackoverflow.com/questions/10004723/html5-input-type-range-show-range-value -->
           <fieldset>
+            <button>-</button>
             <input type="range" value="9" min="1" max="9" oninput="this.nextElementSibling.value = this.value">
-              <output>9</output>
+            <button>+</button>
+              <output>0</output>
           </fieldset>
 
         </section>
@@ -176,9 +179,9 @@
     					<button type="button" name="button">toggle</button>
     				</div>
     				<ul>
-    					<li><a>Alles over Mobiel</a></li>
-    					<li><a>Sim Only</a></li>
-    					<li><a>Alle telefoons</a></li>
+    					<li><a href="#">Alles over Mobiel</a></li>
+    					<li><a href="#">Sim Only</a></li>
+    					<li><a href="#">Alle telefoons</a></li>
     				</ul>
     			</section>
 
@@ -188,9 +191,9 @@
     				<button type="button" name="button">toggle</button>
     			</div>
     			<ul>
-    				<li><a>Nieuwe Iphone</a></li>
+    				<li><a href="#">Nieuwe Iphone</a></li>
     				<li><a href="iphone.html">Iphone 14</a></li>
-    				<li><a>Iphone 14 plus</a></li>
+    				<li><a href="#">Iphone 14 plus</a></li>
     			</ul>
     		</section>
 
@@ -200,9 +203,9 @@
     			<button type="button" name="button">toggle</button>
     		</div>
     		<ul>
-    			<li><a>Internet</a></li>
-    			<li><a>Glasvezel internet</a></li>
-    			<li><a>Wifi</a></li>
+    			<li><a href="#">Internet</a></li>
+    			<li><a href="#">Glasvezel internet</a></li>
+    			<li><a href="#">Wifi</a></li>
     		</ul>
     		</section>
 
@@ -212,9 +215,9 @@
     			<button type="button" name="button">toggle</button>
     		</div>
     		<ul>
-    			<li><a>TV & Streaming</a></li>
-    			<li><a>Zenderoverzicht</a></li>
-    			<li><a>Online tv kijken</a></li>
+    			<li><a href="#">TV & Streaming</a></li>
+    			<li><a href="#">Zenderoverzicht</a></li>
+    			<li><a href="#">Online tv kijken</a></li>
     		</ul>
     		</section>
 
@@ -224,9 +227,9 @@
     			<button type="button" name="button">toggle</button>
     		</div>
     		<ul>
-    			<li><a>Tablets</a></li>
-    			<li><a>Smartwatches</a></li>
-    			<li><a>Smartphones apparatuur</a></li>
+    			<li><a href="#">Tablets</a></li>
+    			<li><a href="#">Smartwatches</a></li>
+    			<li><a href="#">Smartphones apparatuur</a></li>
     		</ul>
     		</section>
     	</footer>

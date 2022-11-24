@@ -80,34 +80,186 @@ main{
   background-color: var(--color-bg-grey);
 }
 
-section:nth-of-type(1) h2{
+main section:nth-of-type(1){
+    overflow: hidden;
+}
+
+main section:nth-of-type(1) h2{
 color: var(--color-bg-black);
 font-size: 2em;
 padding: 0;
 margin: 0;
 }
 
-section:nth-of-type(1) p{
+main section:nth-of-type(1) p{
 font-size: 1.3em;
 font-weight: lighter;
 margin-top: 0.5em;
 }
 
-section:nth-of-type(1) ul{
+main section:nth-of-type(1) ul{
   display: flex;
   overflow: scroll;
+  justify-content: center;
   gap: 1em;
+  background: var(--color-bg-greyer);
+  padding: 2em;
 }
 
-section:nth-of-type(1) img{
+main section:nth-of-type(1) img{
 height: 15em;
 width: auto;
 display: flex;
 }
 
-section:nth-of-type(2) form div:nth-of-type(1) p:nth-of-type(1){
+main section:nth-of-type(2) form div > p:only-child{
 padding: 1em;
 background: linear-gradient(90deg, rgb(209, 248, 79) 0%, rgb(87, 192, 56) 50%, rgb(87, 192, 57) 100%);
 border-radius: 0.5em;
 font-weight: 700;
+}
+
+main fieldset {
+  background: white;
+  border: none;
+  border-radius: 1em;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+main fieldset:first-child legend{
+  position: fixed;
+  left:-9999em;
+}
+
+main section:nth-of-type(2) img{
+  width: 1.3em;
+  height: 1.3em;
+  margin: -0.5em auto;
+}
+
+
+@media (min-width:40em) {
+  main section:nth-of-type(1) ul{
+    justify-content: center;
+  }
+}
+
+/******************/
+  /* fieldset 1 */
+/******************/
+
+main fieldset:nth-of-type(1) > label{
+  font-weight: bold;
+}
+
+main fieldset:nth-of-type(1) div{
+  display: flex;
+  flex-direction: row;
+}
+
+main fieldset:nth-of-type(1) p{
+  color: var(--color-brand);
+}
+
+main fieldset:nth-of-type(1) legend {
+  position: fixed;
+  left:-9999em;
+}
+
+main fieldset:nth-of-type(1) div:nth-of-type(1) {
+  padding: 0.5em;
+}
+
+main fieldset:nth-of-type(1) div:nth-of-type(1) div:nth-of-type(1) input[type="radio"]{
+  accent-color:#335C79;
+  transform: scale(1.5);
+}
+
+main fieldset:nth-of-type(1) div:nth-of-type(1) div:nth-of-type(2) input[type="radio"]{
+  accent-color:#e7deee;
+  transform: scale(1.5);
+}
+
+main fieldset:nth-of-type(1) div:nth-of-type(1) div:nth-of-type(3) input[type="radio"]{
+  accent-color:#951D1D;
+  transform: scale(1.5);
+}
+
+main fieldset:nth-of-type(1) div:nth-of-type(1) div:nth-of-type(4) input[type="radio"]{
+  accent-color:#f7f3ee;
+  transform: scale(1.5);
+}
+
+main fieldset:nth-of-type(1) div:nth-of-type(1) div:nth-of-type(5) input[type="radio"]{
+  accent-color:#171D23;
+  transform: scale(1.5);
+}
+
+main fieldset:nth-of-type(1) div:nth-of-type(1) div: input[type="radio"]{
+  display: block;
+}
+
+@media (min-width:40em) {
+  main fieldset:nth-of-type(1) p br{
+    display: none;
+  }
+}
+
+/******************/
+  /* fieldset 2 */
+/******************/
+
+main section:nth-of-type(2) form fieldset:nth-of-type(2) legend{
+  font-weight: bold;
+  float: left;
+  margin-bottom: 1em;
+  width: 100%;
+  font-size: 1.4em;
+}
+
+main section:nth-of-type(2) form fieldset:nth-of-type(2) p:only-child{
+  margin: 2em 0;
+}
+
+main section:nth-of-type(2) form fieldset:nth-of-type(2) div{
+  background: var(--color-bg-white);
+  padding: 1em;
+  border: 1px solid var(--color-bg-greyer);
+  margin-bottom: 0.8em;
+  border-radius: 0.2em;
+}
+
+main section:nth-of-type(2) form fieldset:nth-of-type(2) div label{
+  font-weight: bold;
+}
+
+main section:nth-of-type(2) form fieldset:nth-of-type(2) div strong{
+  color: var(--color-brand);
+}
+
+/******************/
+  /* fieldset 3 */
+/******************/
+
+main fieldset:nth-of-type(3){
+  display: flex;
+  justify-content: space-around;
+}
+
+main fieldset:nth-of-type(3) button{
+  background-color: var(--color-blue);
+  border-radius: 2em;
+  width: 3em;
+  height: 3em;
+  color: var(--color-white);
+  border: none;
+}
+
+main fieldset:nth-of-type(3) output{
+  margin: 0 auto;
+  display: block;
+  color: var(--color-brand);
+  font-weight: bold;
+  font-size: 2em;
 }
