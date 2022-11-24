@@ -43,38 +43,38 @@ var footerButton5 = document.querySelector("footer section:nth-of-type(5) button
 var footerKopje5 = document.querySelector("footer section:nth-of-type(5) h2");
 
 
-footerButton1.addEventListener("click", toggleMenu);
-footerKopje1.addEventListener("click", toggleMenu);
-footerButton2.addEventListener("click", toggleMenu);
-footerKopje2.addEventListener("click", toggleMenu);
-footerButton3.addEventListener("click", toggleMenu);
-footerKopje3.addEventListener("click", toggleMenu);
-footerButton4.addEventListener("click", toggleMenu);
-footerKopje4.addEventListener("click", toggleMenu);
-footerButton5.addEventListener("click", toggleMenu);
-footerKopje5.addEventListener("click", toggleMenu);
+footerButton1.addEventListener("click", toggleMenu1);
+footerKopje1.addEventListener("click", toggleMenu1);
+footerButton2.addEventListener("click", toggleMenu2);
+footerKopje2.addEventListener("click", toggleMenu2);
+footerButton3.addEventListener("click", toggleMenu3);
+footerKopje3.addEventListener("click", toggleMenu3);
+footerButton4.addEventListener("click", toggleMenu4);
+footerKopje4.addEventListener("click", toggleMenu4);
+footerButton5.addEventListener("click", toggleMenu5);
+footerKopje5.addEventListener("click", toggleMenu5);
 
-function toggleMenu() {
+function toggleMenu1() {
 	var hetMenu1 = document.querySelector("footer section:nth-of-type(1) ul");
-	hetMenu1.classList.toggle("uitklap1");
+	hetMenu1.classList.toggle("mobiel");
 }
 
-function toggleMenu() {
+function toggleMenu2() {
 	var hetMenu2 = document.querySelector("footer section:nth-of-type(2) ul");
-	hetMenu2.classList.toggle("uitklap2");
+	hetMenu2.classList.toggle("toestellen");
 }
 
-function toggleMenu() {
+function toggleMenu3() {
 	var hetMenu3 = document.querySelector("footer section:nth-of-type(3) ul");
-	hetMenu3.classList.toggle("uitklap3");
+	hetMenu3.classList.toggle("internet");
 }
 
-function toggleMenu() {
+function toggleMenu4() {
 	var hetMenu4 = document.querySelector("footer section:nth-of-type(4) ul");
-	hetMenu4.classList.toggle("uitklap4");
+	hetMenu4.classList.toggle("stream");
 }
 
-function toggleMenu() {
+function toggleMenu5() {
 	var hetMenu5 = document.querySelector("footer section:nth-of-type(5) ul");
-	hetMenu5.classList.toggle("uitklap5");
+	hetMenu5.classList.toggle("tablets");
 }

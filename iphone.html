@@ -18,10 +18,10 @@
 
 	<h1 class="sr-only">Welkom bij KPN</h1>
 
-	<header>
+  <header>
 		<nav aria-label="Navigatie Menu">
 			<ul>
-				<li><a href="index.html"><img src="./images/KPN.svg" alt="naar home"></a></li>
+				<li><a href="#"><img src="./images/KPN.svg" alt="naar home"></a></li>
 				<li><button aria-label="winkelmand"><img src="./images/basket.svg" alt="winkelmand"/></button></li>
 				<li><button aria-label="profiel"><img src="./images/profile.svg" alt="profiel"/></button></li>
   			<li><button aria-label="zoeken"><img src="./images/search.svg" alt="zoeken" /></button></li>
@@ -31,6 +31,7 @@
 
 		<nav>
 			<h2>Ons aanbod</h2>
+			<button><img src="./images/close.svg" alt="" aria-hidden="true"></button>
 			<ul>
 				<li><a href="#">
 					<img src="./images/smartphone.svg" alt="" aria-hidden="true">Mobiel</a></li>
@@ -43,6 +44,7 @@
 
 				<li><a href="#">
 					<img src="./images/monitor.svg" alt="" aria-hidden="true">Tablet & Accessoires</a></li>
+
 
 			</ul>
 		</nav>
@@ -59,92 +61,177 @@
             <li><img src="./images/geen_aansluitkosten.png" alt="Iphone 14 zijkant"/></li>
         </section>
         <section>
-          <p> Ruil in en krijg tot €400,- terug </p>
-          <fieldset>
-            <legend>Geheugen</legend>
+          <form>
             <div>
-              <input type="radio" name="geheugen" value="128"
-                     checked>
-              <label for="huey">128gb</label>
+          <p> Ruil in en krijg tot €400,- terug </p>
+            </div>
+
+          <fieldset>
+            <legend>Opties</legend>
+
+            <label for="geheugen">Kleur</label>
+            <div>
+              <input type="radio" name="kleur" value="blauw" checked>
+              <label for="blauw">blauw</label>
+            </div>
+            <div>
+              <input type="radio" name="kleur" value="paars">
+              <label for="paars">paars</label>
+            </div>
+            <div>
+              <input type="radio" name="kleur" value="rood">
+              <label for="rood">rood</label>
+            </div>
+            <div>
+              <input type="radio" name="kleur" value="wit">
+              <label for="wit">wit</label>
+            </div>
+            <div>
+              <input type="radio" name="kleur" value="zwart">
+              <label for="zwart">zwart</label>
+            </div>
+
+
+            <label for="geheugen">Geheugen</label>
+            <div>
+              <input type="radio" name="geheugen" value="128" checked>
+              <label for="128">128gb</label>
             </div>
 
             <div>
               <input type="radio" name="geheugen" value="256">
-              <label for="dewey">256gb</label>
+              <label for="256">256gb</label>
             </div>
 
             <div>
               <input type="radio" name="geheugen" value="512">
-              <label for="louie">512gb</label>
+              <label for="512">512gb</label>
+            </div>
+
+            <p> <strong>Op voorraad:</strong> <br>
+              Vóór 21:00 besteld, morgen in huis  </p>
+
+          </fieldset>
+
+          <fieldset>
+            <legend>Kies je data bundel</legend>
+            <p>Je kunt je databundel aanpassen wanneer je wilt. Omhoog en omlaag. </p>
+
+            <div>
+              <input type="radio" name="data" value="0">
+              <label for="0">0gb</label>
+              <p> Onbeperkt bel/sms</p>
+              <p> MB's ontvangen op hetzelfde adres</p>
+              <p> <strong> 15,00 </strong>/mmd</p>
+            </div>
+
+            <div>
+              <input type="radio" name="data" value="3">
+              <label for="3">3gb</label>
+              <p> Onbeperkt bel/sms</p>
+              <p> MB's ontvangen op hetzelfde adres</p>
+              <p> <strong> 17,50 </strong>/mmd</p>
+            </div>
+
+            <div>
+              <input type="radio" name="data" value="10">
+              <label for="10">10gb</label>
+              <p> Onbeperkt bel/sms</p>
+              <p> MB's ontvangen op hetzelfde adres</p>
+              <p> <strong> 20,00 </strong>/mmd</p>
+            </div>
+
+            <div>
+              <input type="radio" name="data" value="20">
+              <label for="20">20gb</label>
+              <p> Onbeperkt bel/sms</p>
+              <p> MB's ontvangen op hetzelfde adres</p>
+              <p> <strong> 27,50 </strong>/mmd</p>
+            </div>
+
+            <div>
+              <input type="radio" name="data" value="unlimited">
+              <label for="unlimited">Unlimited</label>
+              <p> Onbeperkt bel/sms</p>
+              <p> MB's ontvangen op hetzelfde adres</p>
+              <p> <strong> 35,00 </strong>/mmd</p>
             </div>
           </fieldset>
+
+
+          <!--Bron: https://stackoverflow.com/questions/10004723/html5-input-type-range-show-range-value -->
+          <fieldset>
+            <input type="range" value="9" min="1" max="9" oninput="this.nextElementSibling.value = this.value">
+              <output>9</output>
+          </fieldset>
+
         </section>
 
       </main>
 
       <footer>
-          <section>
-            <div class="">
-              <h2>Mobiel</h2>
-              <button type="button" name="button">toggle</button>
-            </div>
-            <ul>
-              <li><a>Alles over Mobiel</a></li>
-              <li><a>Sim Only</a></li>
-              <li><a>Alle telefoons</a></li>
-            </ul>
-          </section>
+    			<section>
+    				<div class="">
+    					<h2>Mobiel</h2>
+    					<button type="button" name="button">toggle</button>
+    				</div>
+    				<ul>
+    					<li><a>Alles over Mobiel</a></li>
+    					<li><a>Sim Only</a></li>
+    					<li><a>Alle telefoons</a></li>
+    				</ul>
+    			</section>
 
-          <section>
-          <div class="">
-            <h2>Populaire toestellen</h2>
-            <button type="button" name="button">toggle</button>
-          </div>
-          <ul>
-            <li><a>Nieuwe Iphone</a></li>
-            <li><a href="iphone.html">Iphone 14</a></li>
-            <li><a>Iphone 14 plus</a></li>
-          </ul>
-        </section>
+    			<section>
+    			<div class="">
+    				<h2>Populaire toestellen</h2>
+    				<button type="button" name="button">toggle</button>
+    			</div>
+    			<ul>
+    				<li><a>Nieuwe Iphone</a></li>
+    				<li><a href="iphone.html">Iphone 14</a></li>
+    				<li><a>Iphone 14 plus</a></li>
+    			</ul>
+    		</section>
 
-        <section>
-        <div class="">
-          <h2>Internet</h2>
-          <button type="button" name="button">toggle</button>
-        </div>
-        <ul>
-          <li><a>Internet</a></li>
-          <li><a>Glasvezel internet</a></li>
-          <li><a>Wifi</a></li>
-        </ul>
-        </section>
+    		<section>
+    		<div class="">
+    			<h2>Internet</h2>
+    			<button type="button" name="button">toggle</button>
+    		</div>
+    		<ul>
+    			<li><a>Internet</a></li>
+    			<li><a>Glasvezel internet</a></li>
+    			<li><a>Wifi</a></li>
+    		</ul>
+    		</section>
 
-        <section>
-        <div class="">
-          <h2>TV & Streaming</h2>
-          <button type="button" name="button">toggle</button>
-        </div>
-        <ul>
-          <li><a>TV & Streaming</a></li>
-          <li><a>Zenderoverzicht</a></li>
-          <li><a>Online tv kijken</a></li>
-        </ul>
-        </section>
+    		<section>
+    		<div class="">
+    			<h2>TV & Streaming</h2>
+    			<button type="button" name="button">toggle</button>
+    		</div>
+    		<ul>
+    			<li><a>TV & Streaming</a></li>
+    			<li><a>Zenderoverzicht</a></li>
+    			<li><a>Online tv kijken</a></li>
+    		</ul>
+    		</section>
 
-        <section>
-        <div class="">
-          <h2>Tablets & Smartwatches</h2>
-          <button type="button" name="button">toggle</button>
-        </div>
-        <ul>
-          <li><a>Tablets</a></li>
-          <li><a>Smartwatches</a></li>
-          <li><a>Smartphones apparatuur</a></li>
-        </ul>
-        </section>
-      </footer>
+    		<section>
+    		<div class="">
+    			<h2>Tablets & Smartwatches</h2>
+    			<button type="button" name="button">toggle</button>
+    		</div>
+    		<ul>
+    			<li><a>Tablets</a></li>
+    			<li><a>Smartwatches</a></li>
+    			<li><a>Smartphones apparatuur</a></li>
+    		</ul>
+    		</section>
+    	</footer>
 
-	<script src="./scripts/script.js"></script>
-</body>
+    	<script src="./scripts/script.js"></script>
+    </body>
 
-</html>
+    </html>
